@@ -1,0 +1,75 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/login_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="20dp"
+		android:orientation="vertical">
+		<EditText
+			android:id="@+id/email_textbox"
+			android:layout_width="match_parent"
+			android:layout_height="55dp"
+			android:layout_marginTop="20dp"
+			android:paddingLeft="20dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Email address"
+			android:textColorHint="#607D8B"
+			android:background="@drawable/rounded_edittext" />
+		<EditText
+			android:id="@+id/password_textbox"
+			android:layout_width="match_parent"
+			android:layout_height="55dp"
+			android:layout_marginTop="20dp"
+			android:paddingLeft="20dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="8dp"
+			android:textSize="12sp"
+			android:textColor="#000000"
+			android:hint="Password"
+			android:textColorHint="#607D8B"
+			android:background="@drawable/rounded_edittext" />
+		<TextView
+			android:id="@+id/forgot_password_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="20dp"
+			android:text="Forgot Password\?"
+			android:textSize="12sp"
+			android:textColor="#017AFF" />
+		<Button
+			android:id="@+id/login_btn"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="LOG IN"
+			android:textSize="14sp"
+			android:textStyle="bold"
+			android:textColor="#424242"
+			android:background="@drawable/rounded_button" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+			android:paddingLeft="6dp"
+			android:paddingTop="8dp"
+			android:paddingRight="8dp"
+			android:paddingBottom="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="I don't have an account sign up"
+			android:textSize="12sp"
+			android:textColor="#017AFF" />
+	</LinearLayout>
+</LinearLayout>
